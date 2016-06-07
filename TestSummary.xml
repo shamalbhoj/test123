@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-summary>
+	<test-info>
+		<test-information>
+			<test-name>com.exfo.ECCMAX</test-name>
+			<major-number>3</major-number>
+			<minor-number>2001</minor-number>
+			<unit-serial-number comment="LGE Google Nexus 5X">808559</unit-serial-number>
+			<customer-name/>
+			<job-id/>
+			<contractor-name/>
+			<operator-id>0</operator-id>
+			<comment/>
+			<file-name>Fiber6.cmax2</file-name>
+			<timestamp comment="2016/05/26;12:35:41">1464266141633524992</timestamp>
+			<operator/>
+			<operator-b/>
+			<cable-id/>
+			<fiber-id>Fiber6</fiber-id>
+			<location/>
+			<location-b/>
+			<custom-id-1>Cable ID</custom-id-1>
+			<custom-id-2>Fiber ID:Fiber6</custom-id-2>
+			<custom-id-3>Location A</custom-id-3>
+			<custom-id-4>Location B</custom-id-4>
+			<custom-id-5>Connector ID</custom-id-5>
+			<connector-id/>
+			<subset-id/>
+			<unit-id comment="6.2.0.9">FIP-435B</unit-id>
+			<unit-id-b/>
+			<unit-serial-number-b/>
+			<calibration-date comment="2016/05/26;12:35:49">1464266149568683008</calibration-date>
+			<calibration-date-b comment="1.8.0.0P"/>
+		</test-information>
+		<test-parameters>
+			<parameter name="testConfiguration">IEC SM SF APC (61300-3-35, 1.0)</parameter>
+			<parameter name="testConfigurationCustom">False</parameter>
+			<parameter name="polishingType">AnglePhysicalContact</parameter>
+			<parameter name="analysisMode">OutsidePlant</parameter>
+			<parameter name="fiberType">SingleMode</parameter>
+			<parameter name="focusCategory">Nominal</parameter>
+			<parameter name="connectorType">SingleFiber</parameter>
+			<parameter name="claddingDiameter" unit="um">125</parameter>
+			<parameter name="direction">A-B</parameter>
+		</test-parameters>
+		<test-result>
+			<fixed-results>
+				<result name="globalStatus">False</result>
+			</fixed-results>
+			<variable-results>
+				<variable-result name="area-details" group-id="1">
+					<result name="areaID">1</result>
+					<result name="areaName">A: Core</result>
+					<result name="areaInternalDiameterUm" unit="um">0</result>
+					<result name="areaExternalDiameterUm" unit="um">25</result>
+					<result name="areaCriteriaCount">1</result>
+				</variable-result>
+				<variable-result name="area-sub-details" group-id="1" criteriaId="1">
+					<result name="criteriaIndex">1</result>
+					<result name="internalDiameterScratches" unit="um">0</result>
+					<result name="externalDiameterScratches" unit="um">100</result>
+					<result name="countScratches">0</result>
+					<result name="statusScratches">True</result>
+					<result name="thresholdScratches">4</result>
+					<result name="internalDiameterDefects" unit="um">0</result>
+					<result name="externalDiameterDefects" unit="um">100</result>
+					<result name="countDefects">8</result>
+					<result name="statusDefects">False</result>
+					<result name="thresholdDefects">0</result>
+				</variable-result>
+				<variable-result name="area-details" group-id="2">
+					<result name="areaID">2</result>
+					<result name="areaName">B: Cladding</result>
+					<result name="areaInternalDiameterUm" unit="um">25</result>
+					<result name="areaExternalDiameterUm" unit="um">120</result>
+					<result name="areaCriteriaCount">3</result>
+				</variable-result>
+				<variable-result name="area-sub-details" group-id="2" criteriaId="1">
+					<result name="criteriaIndex">1</result>
+					<result name="internalDiameterScratches" unit="um">0</result>
+					<result name="externalDiameterScratches" unit="um">100</result>
+					<result name="countScratches">0</result>
+					<result name="statusScratches">True</result>
+					<result name="thresholdScratches">100</result>
+					<result name="internalDiameterDefects" unit="um">0</result>
+					<result name="externalDiameterDefects" unit="um">2</result>
+					<result name="countDefects">7</result>
+					<result name="statusDefects">True</result>
+					<result name="thresholdDefects">100</result>
+				</variable-result>
+				<variable-result name="area-sub-details" group-id="2" criteriaId="2">
+					<result name="criteriaIndex">2</result>
+					<result name="internalDiameterDefects" unit="um">2</result>
+					<result name="externalDiameterDefects" unit="um">5</result>
+					<result name="countDefects">26</result>
+					<result name="statusDefects">False</result>
+					<result name="thresholdDefects">5</result>
+				</variable-result>
+				<variable-result name="area-sub-details" group-id="2" criteriaId="3">
+					<result name="criteriaIndex">3</result>
+					<result name="internalDiameterDefects" unit="um">5</result>
+					<result name="externalDiameterDefects" unit="um">100</result>
+					<result name="countDefects">17</result>
+					<result name="statusDefects">False</result>
+					<result name="thresholdDefects">0</result>
+				</variable-result>
+				<variable-result name="area-details" group-id="3">
+					<result name="areaID">3</result>
+					<result name="areaName">C: Adhesive</result>
+					<result name="areaInternalDiameterUm" unit="um">120</result>
+					<result name="areaExternalDiameterUm" unit="um">130</result>
+					<result name="areaCriteriaCount">1</result>
+				</variable-result>
+				<variable-result name="area-sub-details" group-id="3" criteriaId="1">
+					<result name="criteriaIndex">1</result>
+					<result name="internalDiameterScratches" unit="um">0</result>
+					<result name="externalDiameterScratches" unit="um">100</result>
+					<result name="countScratches">0</result>
+					<result name="statusScratches">True</result>
+					<result name="thresholdScratches">100</result>
+					<result name="internalDiameterDefects" unit="um">0</result>
+					<result name="externalDiameterDefects" unit="um">100</result>
+					<result name="countDefects">0</result>
+					<result name="statusDefects">True</result>
+					<result name="thresholdDefects">100</result>
+				</variable-result>
+				<variable-result name="area-details" group-id="4">
+					<result name="areaID">4</result>
+					<result name="areaName">D: Contact</result>
+					<result name="areaInternalDiameterUm" unit="um">130</result>
+					<result name="areaExternalDiameterUm" unit="um">250</result>
+					<result name="areaCriteriaCount">2</result>
+				</variable-result>
+				<variable-result name="area-sub-details" group-id="4" criteriaId="1">
+					<result name="criteriaIndex">1</result>
+					<result name="internalDiameterScratches" unit="um">0</result>
+					<result name="externalDiameterScratches" unit="um">100</result>
+					<result name="countScratches">0</result>
+					<result name="statusScratches">True</result>
+					<result name="thresholdScratches">100</result>
+					<result name="internalDiameterDefects" unit="um">0</result>
+					<result name="externalDiameterDefects" unit="um">10</result>
+					<result name="countDefects">92</result>
+					<result name="statusDefects">True</result>
+					<result name="thresholdDefects">100</result>
+				</variable-result>
+				<variable-result name="area-sub-details" group-id="4" criteriaId="2">
+					<result name="criteriaIndex">2</result>
+					<result name="internalDiameterDefects" unit="um">10</result>
+					<result name="externalDiameterDefects" unit="um">100</result>
+					<result name="countDefects">2</result>
+					<result name="statusDefects">False</result>
+					<result name="thresholdDefects">0</result>
+				</variable-result>
+			</variable-results>
+			<variable-results-blob>
+				<result-blob>
+					<type>125</type>
+					<blob-file-path>Fiber6.cmax2</blob-file-path>
+				</result-blob>
+				<result-blob>
+					<type>204</type>
+					<blob-file-path>Fiber6_cmax2_0.png</blob-file-path>
+				</result-blob>
+				<result-blob>
+					<type>204</type>
+					<blob-file-path>Fiber6_cmax2_1.png</blob-file-path>
+				</result-blob>
+			</variable-results-blob>
+		</test-result>
+	</test-info>
+</test-summary>
